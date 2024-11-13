@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentPizzeria Dev.F</title>
+</head>
+<body>
+    <h1>Pizzeria Dev.F</h1>
+    <div>
+     <div>
+        </div>
+    </div>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="pizza"
+    height="100px">    
+    <form>
+        <br>
+        <label for="nombre">Ingresa tu nombre:</label>
+        <input
+            id="nombre"
+            type="text"
+            name="nombre"
+            placeholder="Nombre"
+            maxlength="10"
+            minlength="2"
+            required
+        />
+        <br>
+
+        <label for="email">Email</label>
+        <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Ingresa email"
+            maxlength="30"
+            minlength="5"
+            required
+        />
+        <br>
+        <label for="Dirección">Direccion</label>
+        <input
+            id="Direccion"
+            type="text"
+            name="Direccion"
+            placeholder="Ingresa Dirección"
+            maxlength="30"
+            minlength="5"
+            required
+        />
+
+        <br>
+        <label for="Hora">Hora de entrega</label>
+         <input
+            id="hora"
+            type="time"
+            name="hora_nacimiento"
+            required
+        >
+        <br>
+        <select name="sabor_pizza">
+            <option value="" selected hidden disabled >Selecciona la opción</option>
+            <option value="Pizza Napolitana">Napolitana</option>
+            <option value="Pizza de Pepperoni">Pepperoni</option>
+            <option value="Pizza Vegana">Vegana</option>
+            <option value="Pizza de 4 quesos">Quesos</option>
+        </select>
+        <br>
+         
+         <button>Enviar</button>
+        
+       
+     </form>
+</body>
+</html>
